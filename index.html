@@ -1,1 +1,274 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#07111f">
+  <title>LuisTech | Soporte y Desarrollo Web</title>
+  <meta name="description" content="Soporte técnico 24/7, reparación de equipos, redes, cámaras y diseño y desarrollo web.">
+  <link rel="icon" href="Imagenes/Logo.jpeg" type="image/jpeg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="header" id="inicio">
+    <nav class="nav container" aria-label="Navegacion principal">
+      <a class="brand" href="#inicio" aria-label="LUISTech Inicio">
+        <img class="brand-logo" src="Imagenes/Logo.jpeg" alt="">
+        <span><b>LUIS</b>TECH</span>
+      </a>
+      <button class="menu-toggle" type="button" aria-label="Abrir menu" aria-expanded="false">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+      <div class="nav-links">
+        <a href="#inicio">Inicio</a>
+        <a href="#servicios">Servicios</a>
+        <a href="#nosotros">Nosotros</a>
+        <a href="#galeria">Galeria</a>
+        <a href="#contacto">Contacto</a>
+      </div>
+      <a class="nav-whatsapp" href="https://wa.me/51938409513?text=Hola%2C%20necesito%20soporte%20tecnico" target="_blank" rel="noopener">
+        <i class="fa-brands fa-whatsapp"></i> WhatsApp
+      </a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-orb hero-orb-one"></div>
+      <div class="hero-orb hero-orb-two"></div>
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <div class="availability"><span></span> Disponible las 24 horas</div>
+          <h1>Soluciones tecnologicas <em>sin limites.</em></h1>
+          <p>Soporte profesional, rapido y confiable para tu hogar o empresa. Resolvemos cualquier desafio tecnologico.</p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#servicios">Ver servicios <i class="fa-solid fa-arrow-right"></i></a>
+            <a class="btn btn-ghost" href="https://wa.me/51938409513?text=Hola%2C%20quiero%20una%20cotizacion" target="_blank" rel="noopener">
+              <i class="fa-solid fa-headset"></i> Consultar ahora
+            </a>
+          </div>
+          <div class="hero-stats">
+            <div><strong>24/7</strong><span>Atencion continua</span></div>
+            <div><strong>100%</strong><span>Solucion garantizada</span></div>
+            <div><strong>+500</strong><span>Clientes satisfechos</span></div>
+          </div>
+        </div>
+        <div class="hero-media">
+          <div class="media-frame">
+            <div class="hero-slides" aria-live="off">
+              <article class="hero-slide is-active" aria-hidden="false">
+                <img src="Imagenes/Portada.jpg" alt="Soluciones y equipos de tecnología para empresas">
+                <div class="media-label"><span class="check"><i class="fa-solid fa-check"></i></span><div><small>Soporte profesional</small><b>Atención disponible 24/7</b></div></div>
+              </article>
+              <article class="hero-slide" aria-hidden="true">
+                <img src="Imagenes/Desarrollo Web.jpeg" alt="Especialista trabajando en diseño y desarrollo web">
+                <div class="media-label"><span class="check"><i class="fa-solid fa-code"></i></span><div><small>Presencia digital</small><b>Diseño y desarrollo web</b></div></div>
+              </article>
+              <article class="hero-slide" aria-hidden="true">
+                <img src="Imagenes/Redes.jpg" alt="Infraestructura de redes para empresas">
+                <div class="media-label"><span class="check"><i class="fa-solid fa-network-wired"></i></span><div><small>Conectividad segura</small><b>Redes para tu negocio</b></div></div>
+              </article>
+            </div>
+            <div class="hero-carousel-controls" aria-label="Controles del carrusel">
+              <button type="button" class="hero-carousel-prev" aria-label="Imagen anterior"><i class="fa-solid fa-arrow-left"></i></button>
+              <div class="hero-carousel-dots" aria-label="Seleccionar imagen"></div>
+              <button type="button" class="hero-carousel-next" aria-label="Imagen siguiente"><i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="services section" id="servicios">
+      <div class="container">
+        <div class="section-heading">
+          <div>
+            <span class="eyebrow">NUESTROS SERVICIOS</span>
+            <h2>Todo lo que tu tecnología necesita, incluido el desarrollo web.</h2>
+          </div>
+          <p>Soluciones integrales con personal especializado, atención inmediata y desarrollo web profesional.</p>
+        </div>
+        <div class="service-grid">
+          <article class="service-card">
+            <span class="service-icon cyan"><i class="fa-solid fa-desktop"></i></span>
+            <h3>Soporte Tecnico</h3>
+            <p>Diagnostico, mantenimiento y asistencia remota o presencial las 24 horas.</p>
+            <a href="#contacto" data-service="Soporte tecnico">Solicitar <i class="fa-solid fa-arrow-right"></i></a>
+          </article>
+          <article class="service-card">
+            <span class="service-icon blue"><i class="fa-solid fa-cubes"></i></span>
+            <h3>Software Licenciado</h3>
+            <p>Instalacion y activacion de programas, sistemas y antivirus originales.</p>
+            <a href="#contacto" data-service="Software licenciado">Solicitar <i class="fa-solid fa-arrow-right"></i></a>
+          </article>
+          <article class="service-card">
+            <span class="service-icon purple"><i class="fa-solid fa-video"></i></span>
+            <h3>Seguridad y Camaras</h3>
+            <p>Venta e instalacion de sistemas analogicos, digitales y profesionales.</p>
+            <a href="#contacto" data-service="Camaras de seguridad">Solicitar <i class="fa-solid fa-arrow-right"></i></a>
+          </article>
+          <article class="service-card">
+            <span class="service-icon orange"><i class="fa-solid fa-wrench"></i></span>
+            <h3>Reparacion de Equipos</h3>
+            <p>PC, laptops, impresoras matriciales, multifuncionales y laser.</p>
+            <a href="#contacto" data-service="Reparacion de equipos">Solicitar <i class="fa-solid fa-arrow-right"></i></a>
+          </article>
+          <article class="service-card">
+            <span class="service-icon pink"><i class="fa-solid fa-wifi"></i></span>
+            <h3>Redes e Internet</h3>
+            <p>Routers, switches, instalacion de internet y configuracion profesional.</p>
+            <a href="#contacto" data-service="Redes e internet">Solicitar <i class="fa-solid fa-arrow-right"></i></a>
+          </article>
+          <article class="service-card">
+            <span class="service-icon green"><i class="fa-solid fa-laptop"></i></span>
+            <h3>Venta y Asesoramiento</h3>
+            <p>Te ayudamos a elegir laptops y equipos acorde a tus necesidades y presupuesto.</p>
+            <a href="#contacto" data-service="Venta de equipos">Solicitar <i class="fa-solid fa-arrow-right"></i></a>
+          </article>
+          <article class="service-card">
+            <span class="service-icon yellow"><i class="fa-solid fa-film"></i></span>
+            <h3>Edicion Audiovisual</h3>
+            <p>Edicion de videos profesionales para redes sociales, eventos y negocios.</p>
+            <a href="#contacto" data-service="Edicion de videos">Solicitar <i class="fa-solid fa-arrow-right"></i></a>
+          </article>
+          <article class="service-card">
+            <span class="service-icon coral"><i class="fa-solid fa-palette"></i></span>
+            <h3>Diseno Grafico</h3>
+            <p>Creacion de banners, flyers publicitarios y piezas listas para publicar.</p>
+            <a href="#contacto" data-service="Diseno grafico">Solicitar <i class="fa-solid fa-arrow-right"></i></a>
+          </article>
+          <article class="service-card">
+            <span class="service-icon cyan"><i class="fa-solid fa-code"></i></span>
+            <h3>Diseño y Desarrollo Web</h3>
+            <p>Sitios web modernos, adaptables a celulares y pensados para impulsar tu negocio.</p>
+            <a href="#contacto" data-service="Diseño y desarrollo web">Solicitar <i class="fa-solid fa-arrow-right"></i></a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="about section" id="nosotros">
+      <div class="container about-grid">
+        <div class="about-media">
+          <img src="Imagenes/24hrs.png" alt="Atencion de soporte tecnico disponible las 24 horas">
+          <div class="experience"><strong>24/7</strong><span>Siempre disponibles</span></div>
+        </div>
+        <div class="about-copy">
+          <span class="eyebrow">POR QUE ELEGIRNOS</span>
+          <h2>Tecnologia que trabaja para ti</h2>
+          <p>Brindamos soluciones profesionales y personalizadas para hogares y empresas. Nuestro compromiso es resolver tus problemas tecnicos con rapidez y calidad.</p>
+          <ul class="features">
+            <li><i class="fa-solid fa-circle-check"></i><span><b>Atencion inmediata</b><small>Respuesta rapida y soluciones efectivas.</small></span></li>
+            <li><i class="fa-solid fa-circle-check"></i><span><b>Profesionales capacitados</b><small>Experiencia en multiples marcas y sistemas.</small></span></li>
+            <li><i class="fa-solid fa-circle-check"></i><span><b>Garantia de servicio</b><small>Trabajos seguros y respaldados.</small></span></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="gallery section" id="galeria">
+      <div class="container">
+        <div class="section-heading">
+          <div><span class="eyebrow">TRABAJOS Y RESULTADOS</span><h2>Galeria de soluciones</h2></div>
+          <p>Una muestra de nuestros servicios y trabajos realizados.</p>
+        </div>
+        <div class="gallery-grid">
+          <article class="gallery-card gallery-large">
+            <img src="Imagenes/Redes.jpg" alt="Tecnico trabajando con infraestructura de red">
+            <div><span>Infraestructura</span><b>Redes y servidores</b></div>
+          </article>
+          <article class="gallery-card">
+            <img src="Imagenes/Videovigilancia.jpg" alt="Sistema de videovigilancia y camaras de seguridad">
+            <div><span>Seguridad</span><b>Sistemas de vigilancia</b></div>
+          </article>
+          <article class="gallery-card">
+            <img src="Imagenes/Soporte.jpg" alt="Equipo de especialistas brindando soporte tecnico">
+            <div><span>Empresas</span><b>Soporte corporativo</b></div>
+          </article>
+          <article class="gallery-card">
+            <img src="Imagenes/Laptop.jpeg" alt="Laptop disponible para venta y asesoramiento">
+            <div><span>Equipos</span><b>Venta y configuracion</b></div>
+          </article>
+          <article class="gallery-card">
+            <img src="Imagenes/Mantenimiento.jpg" alt="Mantenimiento y reparacion de una placa electronica">
+            <div><span>Reparacion</span><b>Mantenimiento profesional</b></div>
+          </article>
+          <article class="gallery-card">
+            <img src="Imagenes/Desarrollo Web.jpeg" alt="Diseño y desarrollo de sitios web">
+            <div><span>Desarrollo digital</span><b>Diseño y desarrollo web</b></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta-section">
+      <div class="container cta">
+        <div>
+          <span>¿NECESITAS AYUDA AHORA?</span>
+          <h2>Estamos listos para ayudarte</h2>
+        </div>
+        <a class="btn btn-white" href="https://wa.me/51938409513?text=Hola%2C%20necesito%20ayuda%20tecnica" target="_blank" rel="noopener">
+          <i class="fa-brands fa-whatsapp"></i> Escribir por WhatsApp
+        </a>
+      </div>
+    </section>
+
+    <section class="contact section" id="contacto">
+      <div class="container contact-grid">
+        <div class="contact-info">
+          <span class="eyebrow">CONTACTO</span>
+          <h2>Cuéntanos tu necesidad</h2>
+          <p>Completa el formulario y te llevaremos a WhatsApp para continuar la atención.</p>
+          <div class="contact-items">
+            <a href="tel:+51938409513"><i class="fa-solid fa-phone"></i><span><small>Telefono</small><b>938 409 513</b></span></a>
+            <a href="https://wa.me/51938409513" target="_blank" rel="noopener"><i class="fa-brands fa-whatsapp"></i><span><small>WhatsApp</small><b>Chatear ahora</b></span></a>
+          </div>
+        </div>
+        <form class="contact-form" id="contactForm">
+          <div class="form-row">
+            <label>Nombre completo<input type="text" name="nombre" placeholder="Ej. Juan Perez" required></label>
+            <label>Telefono<input type="tel" name="telefono" placeholder="Ej. 999 999 999" required></label>
+          </div>
+          <label>Correo electronico<input type="email" name="email" placeholder="correo@ejemplo.com"></label>
+          <label>Servicio requerido
+            <select name="servicio" id="servicio">
+              <option value="">Selecciona un servicio</option>
+              <option>Soporte tecnico</option>
+              <option>Software licenciado</option>
+              <option>Camaras de seguridad</option>
+              <option>Reparacion de equipos</option>
+              <option>Redes e internet</option>
+              <option>Venta de equipos</option>
+              <option>Edicion de videos</option>
+              <option>Diseno grafico</option>
+              <option>Diseño y desarrollo web</option>
+            </select>
+          </label>
+          <label>Mensaje<textarea name="mensaje" rows="4" placeholder="Describe brevemente tu necesidad..."></textarea></label>
+          <button class="btn btn-primary form-submit" type="submit">Continuar por WhatsApp <i class="fa-brands fa-whatsapp"></i></button>
+          <p class="form-status" id="formStatus" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-grid">
+      <a class="brand brand-footer" href="#inicio"><img class="brand-logo" src="Imagenes/Logo.jpeg" alt=""><span><b>LUIS</b>TECH</span></a>
+      <p>Soluciones tecnicas profesionales para hogares y empresas.</p>
+      <div class="footer-links"><a href="#servicios">Servicios</a><a href="#nosotros">Nosotros</a><a href="#galeria">Galeria</a><a href="#contacto">Contacto</a></div>
+    </div>
+    <div class="container footer-bottom"><span>© 2026 LuisTech. Todos los derechos reservados.</span><span>Atencion 24/7</span></div>
+  </footer>
+
+  <a class="floating-whatsapp" href="https://wa.me/51938409513?text=Hola%2C%20necesito%20soporte%20tecnico" target="_blank" rel="noopener" aria-label="Contactar por WhatsApp">
+    <i class="fa-brands fa-whatsapp"></i>
+  </a>
+  <script src="script.js"></script>
+</body>
+</html>
 
